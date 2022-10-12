@@ -1,4 +1,5 @@
 const Discord = require("discord.js");         //load the Discord.js Library
+require("dotenv").config();
 const client = new Discord.Client();           //make a new Client
 const config = require("./config.json");       //load the config.json file
 const Enmap = require("enmap")                 //load the enmap library
